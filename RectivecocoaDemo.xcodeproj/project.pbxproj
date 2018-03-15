@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		621B6C105284EC613AF38783 /* Pods_RectivecocoaDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2744FCBE60172E21B3C5C2 /* Pods_RectivecocoaDemo.framework */; };
+		D6CD369C20297EDD0098AF94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD369B20297EDD0098AF94 /* AppDelegate.m */; };
+		D6CD369F20297EDD0098AF94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD369E20297EDD0098AF94 /* ViewController.m */; };
+		D6CD36A220297EDD0098AF94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CD36A020297EDD0098AF94 /* Main.storyboard */; };
+		D6CD36A420297EDD0098AF94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CD36A320297EDD0098AF94 /* Assets.xcassets */; };
+		D6CD36A720297EDD0098AF94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CD36A520297EDD0098AF94 /* LaunchScreen.storyboard */; };
+		D6CD36AA20297EDD0098AF94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD36A920297EDD0098AF94 /* main.m */; };
+		D6CD36B420297EDD0098AF94 /* RectivecocoaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD36B320297EDD0098AF94 /* RectivecocoaDemoUITests.m */; };
+		D6DE99DE204644A700871681 /* SignServes.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE99DD204644A700871681 /* SignServes.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6CD36B020297EDD0098AF94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CD368F20297EDD0098AF94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CD369620297EDD0098AF94;
+			remoteInfo = RectivecocoaDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B2744FCBE60172E21B3C5C2 /* Pods_RectivecocoaDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RectivecocoaDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1CFC69B3BF3E8F471C9A21 /* Pods-RectivecocoaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RectivecocoaDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RectivecocoaDemo/Pods-RectivecocoaDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BCA171E419477D0BD9D37424 /* Pods-RectivecocoaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RectivecocoaDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RectivecocoaDemo/Pods-RectivecocoaDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D6CD369720297EDD0098AF94 /* RectivecocoaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RectivecocoaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CD369A20297EDD0098AF94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6CD369B20297EDD0098AF94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6CD369D20297EDD0098AF94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6CD369E20297EDD0098AF94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6CD36A120297EDD0098AF94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6CD36A320297EDD0098AF94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6CD36A620297EDD0098AF94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6CD36A820297EDD0098AF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CD36A920297EDD0098AF94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6CD36AF20297EDD0098AF94 /* RectivecocoaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RectivecocoaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CD36B320297EDD0098AF94 /* RectivecocoaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectivecocoaDemoUITests.m; sourceTree = "<group>"; };
+		D6CD36B520297EDD0098AF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DE99DC204644A700871681 /* SignServes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignServes.h; sourceTree = "<group>"; };
+		D6DE99DD204644A700871681 /* SignServes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignServes.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6CD369420297EDD0098AF94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621B6C105284EC613AF38783 /* Pods_RectivecocoaDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CD36AC20297EDD0098AF94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		867E3A17A0919E1AC8676913 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B2744FCBE60172E21B3C5C2 /* Pods_RectivecocoaDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6CD368E20297EDD0098AF94 = {
+			isa = PBXGroup;
+			children = (
+				D6CD369920297EDD0098AF94 /* RectivecocoaDemo */,
+				D6CD36B220297EDD0098AF94 /* RectivecocoaDemoUITests */,
+				D6CD369820297EDD0098AF94 /* Products */,
+				ED5B7F238DD8B4DCA29A0B95 /* Pods */,
+				867E3A17A0919E1AC8676913 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6CD369820297EDD0098AF94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD369720297EDD0098AF94 /* RectivecocoaDemo.app */,
+				D6CD36AF20297EDD0098AF94 /* RectivecocoaDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6CD369920297EDD0098AF94 /* RectivecocoaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD369A20297EDD0098AF94 /* AppDelegate.h */,
+				D6CD369B20297EDD0098AF94 /* AppDelegate.m */,
+				D6CD369D20297EDD0098AF94 /* ViewController.h */,
+				D6CD369E20297EDD0098AF94 /* ViewController.m */,
+				D6DE99DC204644A700871681 /* SignServes.h */,
+				D6DE99DD204644A700871681 /* SignServes.m */,
+				D6CD36A020297EDD0098AF94 /* Main.storyboard */,
+				D6CD36A320297EDD0098AF94 /* Assets.xcassets */,
+				D6CD36A520297EDD0098AF94 /* LaunchScreen.storyboard */,
+				D6CD36A820297EDD0098AF94 /* Info.plist */,
+				D6CD36A920297EDD0098AF94 /* main.m */,
+			);
+			path = RectivecocoaDemo;
+			sourceTree = "<group>";
+		};
+		D6CD36B220297EDD0098AF94 /* RectivecocoaDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD36B320297EDD0098AF94 /* RectivecocoaDemoUITests.m */,
+				D6CD36B520297EDD0098AF94 /* Info.plist */,
+			);
+			path = RectivecocoaDemoUITests;
+			sourceTree = "<group>";
+		};
+		ED5B7F238DD8B4DCA29A0B95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCA171E419477D0BD9D37424 /* Pods-RectivecocoaDemo.debug.xcconfig */,
+				8B1CFC69B3BF3E8F471C9A21 /* Pods-RectivecocoaDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6CD369620297EDD0098AF94 /* RectivecocoaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CD36B820297EDD0098AF94 /* Build configuration list for PBXNativeTarget "RectivecocoaDemo" */;
+			buildPhases = (
+				96B7FD5947A2B24C08CEAFCF /* [CP] Check Pods Manifest.lock */,
+				D6CD369320297EDD0098AF94 /* Sources */,
+				D6CD369420297EDD0098AF94 /* Frameworks */,
+				D6CD369520297EDD0098AF94 /* Resources */,
+				59C701E79317E0BAF6AA3427 /* [CP] Embed Pods Frameworks */,
+				DD16353C5F82358D965347E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RectivecocoaDemo;
+			productName = RectivecocoaDemo;
+			productReference = D6CD369720297EDD0098AF94 /* RectivecocoaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6CD36AE20297EDD0098AF94 /* RectivecocoaDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CD36BB20297EDD0098AF94 /* Build configuration list for PBXNativeTarget "RectivecocoaDemoUITests" */;
+			buildPhases = (
+				D6CD36AB20297EDD0098AF94 /* Sources */,
+				D6CD36AC20297EDD0098AF94 /* Frameworks */,
+				D6CD36AD20297EDD0098AF94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6CD36B120297EDD0098AF94 /* PBXTargetDependency */,
+			);
+			name = RectivecocoaDemoUITests;
+			productName = RectivecocoaDemoUITests;
+			productReference = D6CD36AF20297EDD0098AF94 /* RectivecocoaDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6CD368F20297EDD0098AF94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "https://github.com/orzzh";
+				TargetAttributes = {
+					D6CD369620297EDD0098AF94 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D6CD36AE20297EDD0098AF94 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6CD369620297EDD0098AF94;
+					};
+				};
+			};
+			buildConfigurationList = D6CD369220297EDD0098AF94 /* Build configuration list for PBXProject "RectivecocoaDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6CD368E20297EDD0098AF94;
+			productRefGroup = D6CD369820297EDD0098AF94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6CD369620297EDD0098AF94 /* RectivecocoaDemo */,
+				D6CD36AE20297EDD0098AF94 /* RectivecocoaDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6CD369520297EDD0098AF94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CD36A720297EDD0098AF94 /* LaunchScreen.storyboard in Resources */,
+				D6CD36A420297EDD0098AF94 /* Assets.xcassets in Resources */,
+				D6CD36A220297EDD0098AF94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CD36AD20297EDD0098AF94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59C701E79317E0BAF6AA3427 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RectivecocoaDemo/Pods-RectivecocoaDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RectivecocoaDemo/Pods-RectivecocoaDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96B7FD5947A2B24C08CEAFCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RectivecocoaDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD16353C5F82358D965347E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RectivecocoaDemo/Pods-RectivecocoaDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6CD369320297EDD0098AF94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DE99DE204644A700871681 /* SignServes.m in Sources */,
+				D6CD369F20297EDD0098AF94 /* ViewController.m in Sources */,
+				D6CD36AA20297EDD0098AF94 /* main.m in Sources */,
+				D6CD369C20297EDD0098AF94 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CD36AB20297EDD0098AF94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CD36B420297EDD0098AF94 /* RectivecocoaDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6CD36B120297EDD0098AF94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CD369620297EDD0098AF94 /* RectivecocoaDemo */;
+			targetProxy = D6CD36B020297EDD0098AF94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6CD36A020297EDD0098AF94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CD36A120297EDD0098AF94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6CD36A520297EDD0098AF94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CD36A620297EDD0098AF94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6CD36B620297EDD0098AF94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6CD36B720297EDD0098AF94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6CD36B920297EDD0098AF94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCA171E419477D0BD9D37424 /* Pods-RectivecocoaDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RectivecocoaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mympos.safe.RectivecocoaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6CD36BA20297EDD0098AF94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B1CFC69B3BF3E8F471C9A21 /* Pods-RectivecocoaDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RectivecocoaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mympos.safe.RectivecocoaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6CD36BC20297EDD0098AF94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RectivecocoaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mympos.safe.RectivecocoaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RectivecocoaDemo;
+			};
+			name = Debug;
+		};
+		D6CD36BD20297EDD0098AF94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RectivecocoaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mympos.safe.RectivecocoaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RectivecocoaDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6CD369220297EDD0098AF94 /* Build configuration list for PBXProject "RectivecocoaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CD36B620297EDD0098AF94 /* Debug */,
+				D6CD36B720297EDD0098AF94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CD36B820297EDD0098AF94 /* Build configuration list for PBXNativeTarget "RectivecocoaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CD36B920297EDD0098AF94 /* Debug */,
+				D6CD36BA20297EDD0098AF94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CD36BB20297EDD0098AF94 /* Build configuration list for PBXNativeTarget "RectivecocoaDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CD36BC20297EDD0098AF94 /* Debug */,
+				D6CD36BD20297EDD0098AF94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6CD368F20297EDD0098AF94 /* Project object */;
+}
